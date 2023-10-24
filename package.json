@@ -1,0 +1,40 @@
+{
+  "name": "hapi-id-erc721",
+  "version": "1.0.0",
+  "description": "HAPI ID ERC721 contract",
+  "main": "index.js",
+  "scripts": {
+    "build": "hardhat compile",
+    "test": "hardhat test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:HAPIprotocol/hapi-id-erc721.git"
+  },
+  "keywords": [
+    "Smart Contract",
+    "NFT",
+    "Solidity",
+    "Hardhat",
+    "OpenZeppelin"
+  ],
+  "author": "HAPI <devs@hapi.one>",
+  "license": "MIT",
+  "homepage": "https://hapi.one",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.2",
+    "@nomicfoundation/hardhat-ethers": "^3.0.4",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.9",
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@nomicfoundation/hardhat-verify": "^1.1.1",
+    "@openzeppelin/contracts": "^5.0.0",
+    "@openzeppelin/contracts-upgradeable": "^5.0.0",
+    "@openzeppelin/hardhat-upgrades": "^2.3.3",
+    "@types/chai": "^4.3.9",
+    "@types/mocha": "^10.0.3",
+    "@types/node": "^20.8.8",
+    "chai": "^4.3.10",
+    "hardhat": "^2.18.2",
+    "mocha": "^10.2.0"
+  }
+}
